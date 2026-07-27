@@ -9,11 +9,6 @@ class Solution {
             c=c*10 + b%10;
             b/=10;
         }
-        if(x==c){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return x==c;
     }
 }
